@@ -1,4 +1,4 @@
-name: Rodar todos os nossos testes
+name: Segunda rodada dos testes
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
 
       - name: Build and run tests
         run: |
-          mvn -Dtest=teste2test test
+          mvn -Dtest=teste2 test
