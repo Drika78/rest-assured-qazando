@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-tests:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
@@ -26,4 +26,4 @@ jobs:
 
       - name: Build and run tests
         run: |
-          mvn -Dtest=teste2 test
+          mvn -Dtest=teste2test test
