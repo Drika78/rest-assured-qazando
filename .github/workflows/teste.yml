@@ -26,4 +26,4 @@ jobs:
 
       - name: Build and run tests
         run: |
-          mvn -Dsurefire.failIfNoSpecifiedTests=false test
+          mvn test -Dsurefire.failIfNoSpecifiedTests=false
